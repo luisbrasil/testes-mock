@@ -1,4 +1,4 @@
-package main.java.com.testes.entities;
+package com.testes.entities;
 
 public class Aluno {
     private String nome;

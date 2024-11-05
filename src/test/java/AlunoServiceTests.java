@@ -1,16 +1,19 @@
-package test.java;
 
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-import org.mockito.InjectMocks;
-import org.mockito.Mock;
-import org.mockito.MockitoAnnotations;
-import main.java.com.testes.entities.Aluno;
-import main.java.com.testes.interfaces.IAlunoRepository;
-import main.java.com.testes.services.AlunoService;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.mockito.Mockito.*;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import static org.mockito.ArgumentMatchers.any;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import static org.mockito.Mockito.never;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+import org.mockito.MockitoAnnotations;
+
+import com.testes.entities.Aluno;
+import com.testes.interfaces.IAlunoRepository;
+import com.testes.services.AlunoService;
 
 public class AlunoServiceTests {
 

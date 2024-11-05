@@ -1,7 +1,7 @@
-package main.java.com.testes.services;
+package com.testes.services;
 
-import main.java.com.testes.interfaces.IAlunoRepository;
-import main.java.com.testes.entities.Aluno;
+import com.testes.interfaces.IAlunoRepository;
+import com.testes.entities.Aluno;
 
 public class AlunoService {
     private IAlunoRepository alunoRepository;
