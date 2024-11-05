@@ -1,10 +1,9 @@
 package com.testes.services;
 
-import com.testes.interfaces.IAlunoRepository;
-
 import java.util.List;
 
 import com.testes.entities.Aluno;
+import com.testes.interfaces.IAlunoRepository;
 
 public class AlunoService {
     private IAlunoRepository alunoRepository;
